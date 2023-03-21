@@ -1,44 +1,70 @@
 body {
-  background-color: #f5f6f7;
-  font-family: Arial, sans-serif;
-  margin: 0;
+	background-color: #FDF6E3;
+	color: #1A237E;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 header {
-  background-color: white;
-  text-align: center;
-  padding: 2rem;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #1A237E;
+	color: #FDF6E3;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 3em;
+	line-height: 1.2;
+	width: 40%;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	color: #FDF6E3;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav a.active {
+	color: #8C9EFF;
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+	padding: 20px;
 }
 
-h1, h2, h3 {
-  margin: 0;
+main p {
+	margin-bottom: 20px;
 }
 
-.project {
-  display: flex;
-  margin-bottom: 2rem;
+.about p {
+	margin-top: 0;
 }
 
-.project img {
-  width: 33%;
-  margin-right: 1rem;
+.about ul {
+	margin-top: 0;
+	list-style: none;
 }
 
-.project-description {
-  width: 67%;
-}
-
-footer {
-  background-color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+.research h2 {
+	margin-top: 0;
 }
