@@ -6,32 +6,27 @@ body {
 	padding: 0;
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 800px;
-	padding: 0 20px;
-}
-
 header {
 	background-color: #1A237E;
 	color: #FDF6E3;
-	padding: 20px 0;
+	padding: 20px;
+	text-align: center;
 }
 
 h1 {
 	margin: 0;
 	font-size: 3em;
 	line-height: 1.2;
-	text-align: center;
+	display: inline-block;
+	margin-right: 10%;
 }
 
 nav {
-	margin-top: 20px;
-	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 nav ul {
-	display: inline-block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -55,8 +50,38 @@ nav a.active {
 	color: #8C9EFF;
 }
 
+.links {
+	text-align: center;
+	padding: 10px;
+}
+
+.links nav {
+	display: inline-block;
+}
+
+.links ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.links a {
+	color: #1A237E;
+	text-decoration: none;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
 main {
-	padding: 20px 0;
+	padding: 20px;
 }
 
 main p {
